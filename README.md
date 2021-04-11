@@ -37,12 +37,12 @@ Realiza un PingArp a la dirección IP indicada en el parámetro -t (192.168.18.1
 ```
 python PingArp -t 192.168.18.1,192.168.18.2,192.168.18.3
 ```
-Realiza un PingArp a la direccines IPs indicadas en el parámetro -t (192.168.18.1,192.168.18.2,192.168.18.3). Nota: Las direcciones IPs se separan por comas(,).
+Realiza un PingArp a la direcciones IPs indicadas en el parámetro -t (192.168.18.1,192.168.18.2,192.168.18.3). Nota: Las direcciones IPs se separan por comas(,).
 
 ```
 python PingArp -t 192.168.18.1/24
 ```
-Realiza un PingArp a la direccines IPs indicadas en el parámetro -t en este caso se utiliza notación CIDR, en el ejemplo se escanera desde la IP 192.168.18.1 hasta 192.168.18.255.
+Realiza un PingArp a la direcciones IPs indicadas en el parámetro -t en este caso se utiliza notación CIDR, en el ejemplo se escanera desde la IP 192.168.18.1 hasta 192.168.18.255.
 
 # Demostración
 ![alt text](https://github.com/LW-Homeless/PingArp/blob/main/PingArp.gif)
