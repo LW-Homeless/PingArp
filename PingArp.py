@@ -49,6 +49,8 @@ class PingArp:
                 print(Fore.YELLOW + "\n[!] No se obtuvieron resultados. para el rango -> " + args.t)
                 date = datetime.datetime.now()
                 print(Fore.RED + "Finalizado: ", date.strftime("%H:%M:%S"))
+        except AttributeError:
+            print(Fore.YELLOW + "[!] La opcion -t es obligatoria, para mas informacion ejecute PingArp.py -h ")
         except RuntimeError:
             print(Fore.YELLOW + "\n[!] PingArp no se puede ejecutar, WinPcap o Npcap no esta instalado,"
                                 " visite: https://nmap.org/npcap/ para su descarga y instalacion.")
